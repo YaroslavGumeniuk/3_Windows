@@ -16,7 +16,7 @@ const images = () => {
         e.preventDefault();
 
         let target = e.target;
-        console.log(target);
+        // console.log(target);
 
         if (target && target.classList.contains("preview")) {
             setTimeout(function () {
